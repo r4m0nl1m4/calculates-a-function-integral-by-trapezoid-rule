@@ -70,7 +70,7 @@ int main(int argc, char** argv){
 
 		executeTime = getExecuteTime(start, end);
 
-		saveCPUReportOnFile("cpu_report.txt", numtasks, problemSize, localVector, totalVector, executeTime);
+		saveCPUReportOnFile("result_report-parallel-cpu.txt", numtasks, problemSize, localVector, totalVector, executeTime);
 
 		saveResultReportOnFile("result_report-parallel.txt", executeTime);
 	}
