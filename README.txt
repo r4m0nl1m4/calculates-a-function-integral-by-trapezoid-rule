@@ -1,0 +1,35 @@
+/////////////////////////////////////////////////////////////////////////////
+//                                                                         //
+//            FEDERAL UNIVERSITY OF RIO GRANDE DO NORTE - UFRN             //
+//                   DIGITAL METROPOLIS INSTITUTE - IMD                    //
+//                BACHELOR OF INFORMATION TECHNOLOGY - BTI                 //
+//           SPECIAL TOPICS ON INTERNET OF THINGS "B" - IMD0291            //
+//                                                                         //
+/////////////////////////////////////////////////////////////////////////////
+//                                                                         //
+// Names: integral.h                                                       //
+//        report.h                                                         //
+//        integral-by-trapezoid-rule-serial.c                              //
+//        integral-by-trapezoid-rule-parallel.c                            //
+//        shellscript_start.sh                                             //
+//        README.txt                                                       //
+// Date: 14/10/2020                                                        //
+// Version: 1.0                                                            //
+//                                                                         //
+// Author: P.R.O.Lima                                                      //
+//                                                                         //
+// Repository: https://github.com/r4m0nl1m4/integral-by-trapezoid-rule     //
+//                                                                         //
+// Software: GNU Compiler Collection (gcc) 9.3.0                           //
+//                                                                         //
+/////////////////////////////////////////////////////////////////////////////
+//                                                                         //
+// Description: Approximating the definite integral by trapezoid rule by   //
+// serial and parallel computing.                                          //
+//                                                                         //
+/////////////////////////////////////////////////////////////////////////////
+//                                                                         //
+// To execute:                                                             //
+//     ~$ bash shellscript_start.sh                                        //
+//                                                                         //
+/////////////////////////////////////////////////////////////////////////////
