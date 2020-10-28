@@ -6,10 +6,7 @@
 #ifndef INTEGRAL_H
 #define INTEGRAL_H
 
-//library(ies)
-#include <math.h>
-
-double f(double x){ return -pow(x,2)+2*x+2; }
+double f(double x){ return -x*x+2*x+2; }
 
 double getTrapezoidRuleBySerie(double n, double a, double h){
     double x_i, b, areaTotal;
