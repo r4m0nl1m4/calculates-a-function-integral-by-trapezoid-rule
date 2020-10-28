@@ -31,7 +31,7 @@ int main(int argc, char** argv){
 
     executeTime = getExecuteTime(start, end);  
 
-    saveResultReportOnFile("result_report-serie.txt", executeTime);
+    saveResultReportOnFile("result_report-serie.txt", areaTotal, executeTime);
 
     return 0;
 }
