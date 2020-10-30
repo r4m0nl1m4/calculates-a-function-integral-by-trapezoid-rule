@@ -35,7 +35,6 @@ int main(int argc, char** argv){
 	/* Getting the number of processes (size) */
 	MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
     
-    /* To each core's process */
 	//printf("\n\ttaskid=\t%d\n",taskid);
 
 	/* Allocate parallel environment variables */

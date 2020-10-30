@@ -9,11 +9,11 @@ rm result_report-parallel.txt
 rm integral-by-trapezoid-rule-serial
 rm integral-by-trapezoid-rule-parallel
 
-#parallel compilation
+#serie compiler
 g++ -O0 -g -W -ansi -pedantic -std=c++11 -o integral-by-trapezoid-rule-serial integral-by-trapezoid-rule-serial.c
+#parallel compiler
 mpicc -g -Wall integral-by-trapezoid-rule-parallel.c -o integral-by-trapezoid-rule-parallel -lm
 
-#result_report-parallel-cpu.txt
 echo -e "\n/* \n * CPU Report \n */" >> "result_report-parallel-cpu.txt"
 echo -e "\n /* CPU */ \n">> "result_report-parallel-cpu.txt"
 cat /proc/cpuinfo | grep 'model name' | uniq >> "result_report-parallel-cpu.txt"
@@ -23,7 +23,6 @@ cat /proc/cpuinfo | grep 'siblings' | uniq >> "result_report-parallel-cpu.txt"
 cat /proc/cpuinfo | grep 'cache size' | uniq >> "result_report-parallel-cpu.txt"
 echo -e "\n /* Calculation Reports */ " >> "result_report-parallel-cpu.txt"
 
-#result_report.txt
 echo -e "\n/* \n * Result Report Serie \n */" >> "result_report-serie.txt"
 echo -e "\n/* \n * Result Report Parallel \n */" >> "result_report-parallel.txt"
 
@@ -39,8 +38,9 @@ do
 		for attempt in $(seq $attempts)
 		do
 			echo -e "  Try $attempt" >> "result_report-parallel-cpu.txt"
-			#execute
+			#serie execute
 			./integral-by-trapezoid-rule-serial $sizeProblem
+			#parallel execute
 			mpirun -np  $cores --oversubscribe ./integral-by-trapezoid-rule-parallel $sizeProblem
 		done 
 	done
