@@ -5,6 +5,7 @@
 //library(ies)
 #include <mpi.h>
 #include <stdlib.h>
+#include <unistd.h> //use sleep
 
 //new library(ies)
 #include "./integral.h"
@@ -15,8 +16,9 @@ MPI_Status status;
 int main(int argc, char** argv){
 
 	/* Allocate serie environment variables */
-	int numtasks, taskid;
-	double a, b, timeStart, timeEnd, executeTime, 
+	int numtasks, taskid, problemSize;
+	double a, b;
+	struct timeval start, end;
 
     /* Set serie environment variables */
 	problemSize = atoi(argv[1]);
@@ -25,21 +27,15 @@ int main(int argc, char** argv){
 
 	/* Start parallel computing */
 	MPI_Init(&argc, &argv);
-
-    /* Getting the Start Time */
-    timeStart = MPI_Wtime();
-
-    /* Getting the current processes (rank) */
 	MPI_Comm_rank(MPI_COMM_WORLD, &taskid);
-
-	/* Getting the number of processes (size) */
 	MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
     
+    /* To each core's process */
 	//printf("\n\ttaskid=\t%d\n",taskid);
 
 	/* Allocate parallel environment variables */
 	bool isMaster;
-	double local, total, localVector[numtasks], totalVector[numtasks];
+	double localVector[numtasks], totalVector[numtasks];
 
 	/* Allocate and set problem environment variables */
 	double h, nLocal, aLocal, integralLocal; 
@@ -49,15 +45,18 @@ int main(int argc, char** argv){
 	integralLocal = getTrapezoidRuleBySerie(nLocal, aLocal, h);
 
 	/* Set parallel environment variables */
-    local = integralLocal;
+    double local = integralLocal;	
+    double total, executeTime;
 
 	isMaster = (taskid == 0);
-	if (isMaster){
+	if (isMaster) {
+
+		gettimeofday(&start, 0);
+
         int master = 0;
 		localVector[master] = local;
 		totalVector[master] = localVector[master];
 
-        /* Sum */
 		total = local;
 		for( int worker=1; worker<numtasks; worker++ ){
 	        MPI_Recv(&local, 1, MPI_DOUBLE, worker, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
@@ -67,14 +66,13 @@ int main(int argc, char** argv){
 		    totalVector[worker] = total;
 		}
 
-        /* Getting the End Time */
-        timeEnd = MPI_Wtime();
+		gettimeofday(&end, 0);
 
-        /* Getting the Time interval */
-        executeTime = timeEnd-timeStart;
+		executeTime = getExecuteTime(start, end);
 
 		saveCPUReportOnFile("result_report-parallel-cpu.txt", numtasks, problemSize, localVector, totalVector, executeTime);
-		saveResultReportOnFile("result_report-parallel.txt", total, executeTime);
+
+		saveResultReportOnFile("result_report-parallel-runtime.txt", executeTime);
 	}
 	else /* Send  local to process 0 */
 	    MPI_Send(&local, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);

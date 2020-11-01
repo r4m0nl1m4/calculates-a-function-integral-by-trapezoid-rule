@@ -4,6 +4,7 @@
 
 //library(ies)
 #include <stdlib.h>
+#include <unistd.h> //use sleep
 
 //new library(ies)
 #include "./integral.h"
@@ -30,7 +31,7 @@ int main(int argc, char** argv){
 
     executeTime = getExecuteTime(start, end);  
 
-    saveResultReportOnFile("result_report-serie.txt", areaTotal, executeTime);
+    saveResultReportOnFile("result_report-serie-runtime.txt", executeTime);
 
     return 0;
 }
