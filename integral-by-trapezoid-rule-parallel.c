@@ -5,7 +5,6 @@
 //library(ies)
 #include <mpi.h>
 #include <stdlib.h>
-#include <unistd.h> //use sleep
 
 //new library(ies)
 #include "./integral.h"
@@ -30,7 +29,6 @@ int main(int argc, char** argv){
 	MPI_Comm_rank(MPI_COMM_WORLD, &taskid);
 	MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
     
-    /* To each core's process */
 	//printf("\n\ttaskid=\t%d\n",taskid);
 
 	/* Allocate parallel environment variables */
