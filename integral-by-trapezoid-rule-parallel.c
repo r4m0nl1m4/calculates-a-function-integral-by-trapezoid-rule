@@ -16,8 +16,7 @@ int main(int argc, char** argv){
 
 	/* Allocate serie environment variables */
 	int numtasks, taskid, problemSize;
-	double a, b;
-	struct timeval start, end;
+	double a, b, timeStart, timeEnd, executeTime;
 
     /* Set serie environment variables */
 	problemSize = atoi(argv[1]);
@@ -26,7 +25,14 @@ int main(int argc, char** argv){
 
 	/* Start parallel computing */
 	MPI_Init(&argc, &argv);
+
+    /* Getting the Start Time */
+    timeStart = MPI_Wtime();
+
+    /* Getting the current processes (rank) */
 	MPI_Comm_rank(MPI_COMM_WORLD, &taskid);
+
+	/* Getting the number of processes (size) */
 	MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
     
 	//printf("\n\ttaskid=\t%d\n",taskid);
@@ -44,12 +50,10 @@ int main(int argc, char** argv){
 
 	/* Set parallel environment variables */
     double local = integralLocal;	
-    double total, executeTime;
+    double total;
 
 	isMaster = (taskid == 0);
 	if (isMaster) {
-
-		gettimeofday(&start, 0);
 
         int master = 0;
 		localVector[master] = local;
@@ -64,12 +68,13 @@ int main(int argc, char** argv){
 		    totalVector[worker] = total;
 		}
 
-		gettimeofday(&end, 0);
+        /* Getting the End Time */
+        timeEnd = MPI_Wtime();
 
-		executeTime = getExecuteTime(start, end);
+        /* Getting the Time interval */
+        executeTime = timeEnd-timeStart;
 
 		saveCPUReportOnFile("result_report-parallel-cpu.txt", numtasks, problemSize, localVector, totalVector, executeTime);
-
 		saveResultReportOnFile("result_report-parallel-runtime.txt", executeTime);
 	}
 	else /* Send  local to process 0 */

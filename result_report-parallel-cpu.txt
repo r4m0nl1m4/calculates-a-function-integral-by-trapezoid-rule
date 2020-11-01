@@ -17,7 +17,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 9.00e-06 [s] 
+    Runtime 1.95e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2           50          100     1.458325     1.458325
@@ -25,7 +25,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 4.50e-05 [s] 
+    Runtime 2.37e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2           50          100     1.458325     1.458325
@@ -33,7 +33,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 3.80e-05 [s] 
+    Runtime 2.38e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2           50          100     1.458325     1.458325
@@ -41,7 +41,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 9.00e-06 [s] 
+    Runtime 1.77e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2           50          100     1.458325     1.458325
@@ -49,7 +49,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 1.50e-05 [s] 
+    Runtime 1.49e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2           50          100     1.458325     1.458325
@@ -60,7 +60,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 1.50e-05 [s] 
+    Runtime 1.77e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2          100          200     1.458331     1.458331
@@ -68,7 +68,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 1.50e-05 [s] 
+    Runtime 1.63e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2          100          200     1.458331     1.458331
@@ -76,7 +76,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 2.10e-05 [s] 
+    Runtime 1.87e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2          100          200     1.458331     1.458331
@@ -84,7 +84,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 2.50e-05 [s] 
+    Runtime 3.16e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2          100          200     1.458331     1.458331
@@ -92,7 +92,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 3.20e-05 [s] 
+    Runtime 2.00e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            2          100          200     1.458331     1.458331
@@ -103,7 +103,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 5.60e-05 [s] 
+    Runtime 2.02e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           25          100     0.744788     0.744788
@@ -113,7 +113,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 2.30e-05 [s] 
+    Runtime 1.93e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           25          100     0.744788     0.744788
@@ -123,7 +123,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 1.14e-04 [s] 
+    Runtime 1.46e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           25          100     0.744788     0.744788
@@ -133,7 +133,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 2.30e-05 [s] 
+    Runtime 1.12e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           25          100     0.744788     0.744788
@@ -143,7 +143,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 6.10e-05 [s] 
+    Runtime 3.86e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           25          100     0.744788     0.744788
@@ -156,7 +156,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 2.00e-05 [s] 
+    Runtime 1.81e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           50          200     0.744791     0.744791
@@ -166,7 +166,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 3.80e-05 [s] 
+    Runtime 2.27e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           50          200     0.744791     0.744791
@@ -176,7 +176,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 9.30e-05 [s] 
+    Runtime 4.81e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           50          200     0.744791     0.744791
@@ -186,7 +186,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 2.60e-05 [s] 
+    Runtime 3.89e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           50          200     0.744791     0.744791
@@ -196,7 +196,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 9.50e-05 [s] 
+    Runtime 1.05e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            4           50          200     0.744791     0.744791
@@ -209,7 +209,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 1.12e-04 [s] 
+    Runtime 2.62e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           16          100     0.478632     0.478632
@@ -221,7 +221,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 6.80e-05 [s] 
+    Runtime 3.09e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           16          100     0.478632     0.478632
@@ -233,7 +233,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 6.30e-05 [s] 
+    Runtime 2.39e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           16          100     0.478632     0.478632
@@ -245,7 +245,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 4.90e-05 [s] 
+    Runtime 3.05e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           16          100     0.478632     0.478632
@@ -257,7 +257,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 9.50e-05 [s] 
+    Runtime 2.04e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           16          100     0.478632     0.478632
@@ -272,7 +272,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 1.67e-04 [s] 
+    Runtime 3.99e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           33          200     0.493502     0.493502
@@ -284,7 +284,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 2.30e-05 [s] 
+    Runtime 2.80e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           33          200     0.493502     0.493502
@@ -296,7 +296,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 2.20e-05 [s] 
+    Runtime 3.26e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           33          200     0.493502     0.493502
@@ -308,7 +308,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 3.60e-05 [s] 
+    Runtime 1.66e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           33          200     0.493502     0.493502
@@ -320,7 +320,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 1.56e-04 [s] 
+    Runtime 1.21e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            6           33          200     0.493502     0.493502
@@ -335,7 +335,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 5.10e-05 [s] 
+    Runtime 4.78e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           12          100     0.359422     0.359422
@@ -349,7 +349,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 6.00e-05 [s] 
+    Runtime 6.96e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           12          100     0.359422     0.359422
@@ -363,7 +363,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 1.21e-04 [s] 
+    Runtime 2.91e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           12          100     0.359422     0.359422
@@ -377,7 +377,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 4.40e-05 [s] 
+    Runtime 5.05e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           12          100     0.359422     0.359422
@@ -391,7 +391,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 1.07e-04 [s] 
+    Runtime 1.01e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           12          100     0.359422     0.359422
@@ -408,7 +408,7 @@ cache size	: 8192 KB
 
   Try 1
 
-    Runtime 4.60e-05 [s] 
+    Runtime 1.04e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           25          200     0.374348     0.374348
@@ -422,7 +422,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 2
 
-    Runtime 5.20e-05 [s] 
+    Runtime 1.45e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           25          200     0.374348     0.374348
@@ -436,7 +436,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 3
 
-    Runtime 9.60e-05 [s] 
+    Runtime 1.78e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           25          200     0.374348     0.374348
@@ -450,7 +450,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 4
 
-    Runtime 2.52e-04 [s] 
+    Runtime 5.89e-04 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           25          200     0.374348     0.374348
@@ -464,7 +464,7 @@ cache size	: 8192 KB
 --------------------------------------------------------------------------------
   Try 5
 
-    Runtime 1.19e-04 [s] 
+    Runtime 6.80e-05 [s] 
 
     Process        Total  problemSize        Total        Local        Total
           0            8           25          200     0.374348     0.374348
