@@ -30,7 +30,7 @@ echo -e "\n/* \n * Runtime Report In Seconds\n */" >> "result_report-parallel-ru
 attempts=5
 for cores in 2 4 6 8
 do 
-	for sizeProblem in 100 200
+	for sizeProblem in 100000 200000
 	do 
 		echo -e "\n $cores $sizeProblem\t\c" >> "result_report-serie-runtime.txt"
 		echo -e "\n $cores $sizeProblem\t\c" >> "result_report-parallel-runtime.txt"
