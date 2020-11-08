@@ -9,8 +9,10 @@
 //                                                                         //
 // Names: integral.h                                                       //
 //        report.h                                                         //
-//        integral-by-trapezoid-rule-serial.c                              //
-//        integral-by-trapezoid-rule-parallel.c                            //
+//        report.pdf                                                       //
+//        integral-by-trapezoid-rule-serial.cpp                            //
+//        integral-by-trapezoid-rule-parallel.cpp                          //
+//        calculates-serie-parallel-analysis.cpp                           //
 //        shellscript_start.sh                                             //
 //        README.txt                                                       //
 // Date: 14/10/2020                                                        //
