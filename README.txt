@@ -20,14 +20,16 @@
 //                                                                         //
 // Author: P.R.O.Lima                                                      //
 //                                                                         //
-// Repository: https://github.com/r4m0nl1m4/integral-by-trapezoid-rule     //
+// Repository: https://github.com/r4m0nl1m4/calculates-a-definite-integral //
+// -by-trapezoid-rule                                                      //
 //                                                                         //
 // Software: GNU Compiler Collection (gcc) 9.3.0                           //
 //                                                                         //
 /////////////////////////////////////////////////////////////////////////////
 //                                                                         //
-// Description: Approximating the definite integral by trapezoid rule by   //
-// serial and parallel computing.                                          //
+// Description: Approximating  the  definite  integral  by trapezoid rule, //
+// developed   for  use  on  serie  and  parallel  processors  with  local //
+// interconnections.                                                       //
 //                                                                         //
 /////////////////////////////////////////////////////////////////////////////
 //                                                                         //
