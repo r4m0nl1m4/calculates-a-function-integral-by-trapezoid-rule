@@ -2,12 +2,8 @@
 //Main for "integral-by-trapezoid-rule-parallel" C application
 //Created by r4m0nl1m4 14/10/2020
 
-//library(ies)
-#include <mpi.h>
-#include <stdlib.h>
-
-//new library(ies)
 #include "./integral.h"
+#include <mpi.h>
 #include "./report.h"
 
 MPI_Status status;

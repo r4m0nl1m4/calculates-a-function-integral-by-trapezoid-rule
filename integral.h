@@ -1,5 +1,5 @@
 
-//Main for "integral" C application
+//Main for "integral" C++ application
 //Created by r4m0nl1m4 14/10/2020
 
 //Guard
